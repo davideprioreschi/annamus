@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=KoHo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand&family=Rubik&family=Thasadith:ital@1&family=Voces&family=Ysabeau&display=swap');
+
+:root {
+    --colorp: #763C00;
+    --colors: #EF8535;
+    --colorbg: #F9F7DC;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'KoHo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Thasadith', sans-serif;
+    font-family: 'Voces', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+}
+
+
+.logo-sx {
+    flex: 50%;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-dx {
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-dx {
+    padding: 1.5rem;
+}
+
+.banner {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: white;
+}
+
+.chisiamo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chisiamo h2 {
+    padding: 1.5rem;
+    background-color: var(--colorp);
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.chisiamo p {
+    padding: 1.5rem;
+}
+
+.lanostrastoria {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.lns-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.lns-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+.lanostracucina {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.lnc-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.lnc-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+.lanostraospitalita {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.lno-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.lno-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+.prodotti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.prodotti h2 {
+    padding: 1.5rem;
+    background-color: var(--colorp);
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.prodotti p {
+    padding: 1.5rem;
+}
+
+
+
+
+.carbonara {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.carbonara-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.carbonara-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+.amatriciana {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.amatriciana-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.amatriciana-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+.cacioepepe {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cacioepepe-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.cacioepepe-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+.dovesiamo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.dovesiamo h2 {
+    padding: 1.5rem;
+    background-color: var(--colorp);
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.orari p {
+    padding: 1.5rem;
+}
+
+.orari {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.orari-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.orari-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+
+.contatti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.contatti h2 {
+    padding: 1.5rem;
+    background-color: var(--colorp);
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.telefono p {
+    padding: 1.5rem;
+}
+
+.telefono {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.telefono-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.telefono-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+.social p {
+    padding: 1.5rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.social-sx {
+    flex: 100%;
+    text-align: center;
+}
+
+.social-sx h2 {
+    color: var(--colorp);
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+.social-dx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
